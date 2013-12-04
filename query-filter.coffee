@@ -14,5 +14,7 @@ module.exports = (value, filters) ->
         delete params[k]
         break
 
-  urlInfo.search = '?' + querystring.stringify params
-  url.format urlInfo
+  search = querystring.stringify params
+  search = '?' + search if search?.length > 0
+
+  value.replace /\?.*$/, search

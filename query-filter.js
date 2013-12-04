@@ -6,7 +6,7 @@ url = require('url');
 querystring = require('querystring');
 
 module.exports = function(value, filters) {
-  var filter, i, k, params, regex, urlInfo, v, _i, _j, _len, _len1;
+  var filter, i, k, params, regex, search, urlInfo, v, _i, _j, _len, _len1;
   urlInfo = url.parse(value);
   if (!urlInfo.query) {
     return value;
@@ -26,6 +26,9 @@ module.exports = function(value, filters) {
       }
     }
   }
-  urlInfo.search = '?' + querystring.stringify(params);
-  return url.format(urlInfo);
+  search = querystring.stringify(params);
+  if ((search != null ? search.length : void 0) > 0) {
+    search = '?' + search;
+  }
+  return value.replace(/\?.*$/, search);
 };

@@ -1,7 +1,7 @@
 {
   "name": "query-filter",
   "main": "./query-filter.js",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/*.spec.coffee",
     "pretest": "./node_modules/.bin/coffee --bare --compile *.coffee"
@@ -17,7 +17,7 @@
     "url": "git@git.alexgorbatchev.com:alexgorbatchev/query-filter.git"
   },
   "devDependencies": {
-    "coffee-script": "1.x",
+    "coffee-script": "~1.6.3",
     "chai": "~1.6.0",
     "mocha": "~1.10.0"
   }
