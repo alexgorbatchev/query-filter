@@ -1,20 +1,20 @@
 {
   "name": "query-filter",
   "main": "./query-filter.js",
-  "version": "0.5.1",
+  "version": "0.5.2",
+  "description": "Utility module which removes all matching GET parameters from URL using regular expressions.",
+  "author": {
+    "name": "Alex Gorbatchev",
+    "email": "alex.gorbatchev@gmail.com"
+  },
   "scripts": {
     "test": "./node_modules/.bin/mocha test/*.spec.coffee",
     "pretest": "./node_modules/.bin/coffee --bare --compile *.coffee"
   },
-  "keywords": [
-    "querystring",
-    "filter",
-    "regex",
-    "get"
-  ],
+  "keywords": ["querystring", "filter", "regex", "get"],
   "repository": {
     "type": "git",
-    "url": "git@git.alexgorbatchev.com:alexgorbatchev/query-filter.git"
+    "url": "http://github.com/alexgorbatchev/query-filter.git"
   },
   "devDependencies": {
     "coffee-script": "~1.6.3",
