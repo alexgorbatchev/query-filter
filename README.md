@@ -3,7 +3,10 @@
 Utility module which removes all matching GET parameters from URL using regular expressions.
 
 [![Dependency status](https://david-dm.org/alexgorbatchev/query-filter.png)](https://david-dm.org/alexgorbatchev/query-filter)
-[![Build Status](https://travis-ci.org/alexgorbatchev/query-filter.png)](https://travis-ci.org/alexgorbatchev/query-filter)
+[![devDependency Status](https://david-dm.org/alexgorbatchev/query-filter/dev-status.png)](https://david-dm.org/alexgorbatchev/query-filter#info=devDependencies)
+[![Build Status](https://secure.travis-ci.org/alexgorbatchev/query-filter.png?branch=master)](https://travis-ci.org/alexgorbatchev/query-filter)
+
+[![NPM](https://nodei.co/npm/query-filter.png?downloads=true)](https://npmjs.org/package/query-filter)
 
 ## Support
 
