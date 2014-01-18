@@ -3,6 +3,7 @@
   "main": "./query-filter.js",
   "version": "0.5.3",
   "description": "Removes all matching GET parameters from URL using regular expressions.",
+  "license": "MIT",
   "author": {
     "name": "Alex Gorbatchev",
     "email": "alex.gorbatchev@gmail.com"
