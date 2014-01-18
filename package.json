@@ -1,8 +1,8 @@
 {
   "name": "query-filter",
   "main": "./query-filter.js",
-  "version": "0.5.2",
-  "description": "Utility module which removes all matching GET parameters from URL using regular expressions.",
+  "version": "0.5.3",
+  "description": "Removes all matching GET parameters from URL using regular expressions.",
   "author": {
     "name": "Alex Gorbatchev",
     "email": "alex.gorbatchev@gmail.com"
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "coffee-script": "~1.6.3",
-    "chai": "~1.6.0",
-    "mocha": "~1.10.0"
+    "chai": "~1.8.1",
+    "mocha": "~1.17.0"
   }
 }
